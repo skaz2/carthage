@@ -25,7 +25,7 @@ class ViewController: GSViewController {
         currentIndex += 1
 
         if !colors.indices.contains(currentIndex) {
-            currentIndex = 0
+            currentIndex = .zero
         }
 
         changeBackground(withColor: colors[currentIndex])
